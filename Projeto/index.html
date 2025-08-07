@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="estilo.css">
+    <title>Formulario simples</title>
+</head>
+<body>
+  <h1>Formulario de contato </h1> 
+  <div class="container"> 
+    <form action="https://example.com/submit" method="post">
+        <label for="nome"><strong>Name</strong></label> <!--Area de nome -->
+    <div class="nome"><input type="text" id="nome" name="nome" required> </div> <!--Campo de texto para nome -->
+        <br> 
+        <label for="email"><strong>Email</strong></label> <!--Area de email -->  
+       <div class="email"><input type="email" id="email" name="email" required></div>  <!--Campo de texto para email -->
+        <br>
+        <label for="mensagem"><strong>Mensagem</strong></label> <!--Area de mensagem -->
+       <div class="textarea"> <textarea id="mensagem" name="mensagem" required></textarea> </div> <!--Campo de texto para mensagem -->
+        <br>
+     <div class="button"><button type="submit"><strong>Enviar</strong></button></div>  <!--Botão de envio -->
+    </form>
+    </div>
+</body>
+</html>
